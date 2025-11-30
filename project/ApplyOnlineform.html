@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>ApplyOnline form</title>
+    </head>
+    <style>
+        main{
+            display: grid;
+            grid-template-columns: auto auto;
+            height: 600px;
+        }
+        .item1{
+            background-image:url("https://i.pinimg.com/736x/09/b2/01/09b201eae4d4f5ec81b94cc134c8ae9a.jpg");
+            background-size: cover;
+            color: white;
+            padding:80px;
+        }
+       .item1 p{
+        margin-top:-20px;
+        padding-left: 20px;
+        }
+        .item2{
+            background-image:url("https://thumbs.dreamstime.com/b/web-design-grunge-word-cloud-concept-old-paper-background-40772290.jpg");
+            background-size: cover;
+            color: white;
+            width: 90%;
+            padding: 60px;
+        }
+        .item2 h2{
+            margin-top:-10px;
+            text-align: center;
+            font-weight: bold;
+        }
+        #ip1{
+            width:37.5%;
+            padding: 10px;
+        }
+        input{
+            padding:10px;
+        }
+        #ip2{
+            width:35%;
+            padding: 10px;
+        }
+        button{
+            margin-left: 25%;
+            padding:10px;
+            background-color: greenyellow;
+        }
+        
+    </style>
+    <body>
+        <main>
+        <div class="item1">
+            <h1>RR</h1>
+            <p>Technologies</p>
+            <h1>K.RAGHAVA</h1>
+            <p>Inspired Applications</p><br><br>
+            <p>To connect with us <br>Please enter the details</p>
+        </div>
+        <div class="item2">
+            <h2>Create an Account</h2>
+            <form>
+                <label>First Name</label>
+                <input placeholder="first name" required>
+                <label>Middle Name</label>
+                <input placeholder="middlename" required>
+                <label>Age</label>
+                <input placeholder="18-100" required><br><br>
+                <label >Mobile Number</label>
+                <input id="ip1" type="tel" placeholder="2345678901">
+                <label>Email</label>
+                <input id="ip1" placeholder="raghav7@gmail.com" required><br>
+                <label>Description</label>
+                <textarea rows="5" cols="101" placeholder="Max.150 characters"></textarea><br><br>
+                <label>Password</label>
+                <input id="ip2"type="password" required>
+                <label>Confirm Password</label>
+                <input id="ip2"type="password" required><br><br><br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+        </main>
+    </body>
+</html>
